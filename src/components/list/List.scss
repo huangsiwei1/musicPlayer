@@ -1,0 +1,28 @@
+.row{
+  display: -webkit-box!important;
+  display: -webkit-flex!important;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  width: 100%;
+  height: .5rem;
+  font-size: .16rem;
+  .title{
+    flex:1;
+    margin-left:.1rem
+  }
+  .lrclink{
+    width: 1rem;
+    text-align: center;
+  }
+  .delete{
+    height: .2rem;
+    width: .2rem;
+    line-height: .2rem;
+    font-size:.25rem;
+    color:black
+  }
+}
+.focus {
+  color: #2f9842;
+  font-size: .2rem;
+}
